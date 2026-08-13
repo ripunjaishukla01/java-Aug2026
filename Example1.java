@@ -4,17 +4,19 @@ class Animal {
     }
 }
     class Dog extends Animal {
-        void bark() {
-          System.out.println("Dog is barking");
+        @Override
+        void eats() {
+          System.out.println("Dog is barking...");
         
     }
 }
 
-public class LearnInheritance {
+
+public  class Example1  {
 public static void main(String[] args) {
     
     Dog d = new Dog();
     d.eats();
-    d.bark();
+    
 }
 }
