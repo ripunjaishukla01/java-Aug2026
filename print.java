@@ -5,8 +5,9 @@ public class print {
         System.out.print("Enter the number :");
         int n = sc.nextInt();
         for (int i = 1;i<= n;i++){
-            for(int j= i;j<=n;j++)
-                System.out.print(i+" * ");
+            for(int j= i;j<=n;j--)
+            
+                System.out.print(i +"  ");
                 System.out.println(" ");
         }
         System.out.println("");
