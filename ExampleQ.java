@@ -13,12 +13,3 @@
 
 
 // }
-
-
-import java.util.*;
-public class ExampleQ {
-public static void main(String[] args) {
-    Scanner sc
-}
-    
-}
